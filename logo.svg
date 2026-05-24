@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 360" width="1000" height="360">
-  <image xlink:href="Zettabit_Logo_1000x360.jpeg" width="1000" height="360" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="250" height="90">
+  <!-- Background -->
+  <rect width="1000" height="360" fill="white"/>
+  
+  <!-- Zettabit Text Logo in Navy Blue -->
+  <text x="500" y="200" font-family="Arial, sans-serif" font-size="180" font-weight="bold" text-anchor="middle" fill="#001f5c">Zettabit</text>
 </svg>
