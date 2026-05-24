@@ -1,113 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Zettabit Ltd</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo-link">
-                <img src="logo.svg" alt="Zettabit Ltd" class="logo-img">
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <header class="page-header">
-        <div class="container">
-            <h1>Contact Us</h1>
+    <title>Contact | Zettabit</title>
+
+    <meta name="description"
+          content="Contact Zettabit for PeopleSoft Systems Administration or Production Accounting services.">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <img src="zettabit-logo-transparent.png" alt="Zettabit">
+            </a>
+
+            <nav class="main-nav">
+
+                <a href="index.html">Home</a>
+                <a href="peoplesoft.html">PeopleSoft</a>
+                <a href="production-accounting.html">Production Accounting</a>
+                <a href="contact.html" class="nav-button">Contact</a>
+
+            </nav>
+
         </div>
+
     </header>
 
-    <section class="contact-section">
+    <!-- HERO -->
+
+    <section class="hero-section">
+
+        <div class="hero-background-circle circle-one"></div>
+
         <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2>Get in Touch</h2>
-                    <p>We'd love to hear from you. Please reach out using the contact information below or fill out the contact form.</p>
 
-                    <div class="contact-details">
-                        <h3>Email</h3>
-                        <p><a href="mailto:enquire@zettabit.co.nz">enquire@zettabit.co.nz</a></p>
+            <div class="hero-content">
 
-                        <h3>Mailing Address</h3>
-                        <p>
-                            Zettabit Ltd<br>
-                            PO Box 101505<br>
-                            North Shore Mail Centre<br>
-                            Auckland 0627<br>
-                            New Zealand
-                        </p>
-
-                        <h3>Business Hours</h3>
-                        <p>
-                            Monday - Friday: 9:00 AM - 5:00 PM (NZST)<br>
-                            After-hours support available by arrangement
-                        </p>
-                    </div>
+                <div class="eyebrow">
+                    Contact Zettabit
                 </div>
 
-                <div class="contact-form-container">
-                    <h2>Send us a Message</h2>
-                    <form id="contactForm" class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
+                <h1>
+                    Get in touch with the right service area.
+                </h1>
 
-                        <div class="form-group">
-                            <label for="email">Email *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
+                <p>
+                    Contact Zettabit regarding
+                    PeopleSoft Systems Administration
+                    or Production Accounting services.
+                </p>
 
-                        <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="company">Company</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="subject">Subject *</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="6" required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
             </div>
+
         </div>
+
     </section>
 
-    <footer>
+    <!-- CONTACT -->
+
+    <section class="services-section">
+
         <div class="container">
-            <p>&copy; 2013-2026 Zettabit Ltd. All rights reserved.</p>
-            <p>PO Box 101505, North Shore Mail Centre, Auckland 0627, NZ</p>
+
+            <div class="two-column-services">
+
+                <!-- LEFT -->
+
+                <div class="division-card">
+
+                    <span class="capability-number">
+                        CONTACT
+                    </span>
+
+                    <h3>
+                        General Enquiries
+                    </h3>
+
+                    <p>
+                        Contact Zettabit for
+                        PeopleSoft Systems Administration,
+                        Production Accounting
+                        or general business enquiries.
+                    </p>
+
+                    <a href="mailto:enquire@zettabit.co.nz" class="primary-button">
+                        enquire@zettabit.co.nz
+                    </a>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div class="division-card">
+
+                    <span class="capability-number">
+                        CONTACT FORM
+                    </span>
+
+                    <h3>
+                        Send a Message
+                    </h3>
+
+                    <form class="contact-form"
+                          action="https://formspree.io/f/xqejlvda"
+                          method="POST">
+
+                        <label>
+
+                            Name
+
+                            <input type="text"
+                                   name="name"
+                                   required>
+
+                        </label>
+
+                        <label>
+
+                            Email
+
+                            <input type="email"
+                                   name="email"
+                                   required>
+
+                        </label>
+
+                        <label>
+
+                            Service Area
+
+                            <select name="service_area" required>
+
+                                <option value="">
+                                    Please select
+                                </option>
+
+                                <option value="PeopleSoft Systems Administration">
+                                    PeopleSoft Systems Administration
+                                </option>
+
+                                <option value="Production Accounting">
+                                    Production Accounting
+                                </option>
+
+                                <option value="General Enquiry">
+                                    General Enquiry
+                                </option>
+
+                            </select>
+
+                        </label>
+
+                        <label>
+
+                            Message
+
+                            <textarea name="message"
+                                      rows="6"
+                                      required></textarea>
+
+                        </label>
+
+                        <button type="submit"
+                                class="primary-button">
+
+                            Send Message
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
         </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-container">
+
+            <div>
+                © 2026 Zettabit Ltd
+            </div>
+
+            <div>
+                Auckland, New Zealand
+            </div>
+
+        </div>
+
     </footer>
 
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! We will get back to you soon.');
-            this.reset();
-        });
-    </script>
 </body>
 </html>
