@@ -1,7 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 360" width="250" height="90">
-  <!-- White background -->
-  <rect width="1000" height="360" fill="white"/>
-  
-  <!-- Embed the JPEG logo image -->
-  <image xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwwUAxMTAwMTAxwYAxMTAwMTAxwYExMTAxwYGRkTExMTExMTExMTExMTExMTExMT/2wBDAQICAgMDAwYDAwYMCAcIDAwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID/wAARCAABYAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAr/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8VAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCwAA8A/9k=" width="1000" height="360" preserveAspectRatio="xMidYMid slice"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 360" width="1000" height="360" preserveAspectRatio="xMidYMid meet">
+  <image xlink:href="Zettabit_Logo_1000x360.jpeg" width="1000" height="360" preserveAspectRatio="xMidYMid meet"/>
 </svg>
