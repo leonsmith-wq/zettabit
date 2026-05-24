@@ -19,7 +19,7 @@ body {
 /* Navigation */
 .navbar {
     background-color: #1a1a1a;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -31,10 +31,20 @@ body {
     align-items: center;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s;
+}
+
+.logo-link:hover .logo-img {
+    transform: scale(1.05);
 }
 
 .nav-links {
@@ -369,6 +379,10 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo-img {
+        height: 40px;
+    }
+
     .nav-links {
         gap: 1rem;
     }
